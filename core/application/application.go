@@ -22,11 +22,11 @@ package application
 import (
 	"time"
 
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/log"
 
-	d "github.com/palletone/go-palletone/consensus/dpos"
-	s "github.com/palletone/go-palletone/consensus/dpos/mediators"
-	v "github.com/palletone/go-palletone/dag/verifiedunit"
+	d "github.com/studyzy/go-palletone/consensus/dpos"
+	s "github.com/studyzy/go-palletone/consensus/dpos/mediators"
+	v "github.com/studyzy/go-palletone/dag/verifiedunit"
 )
 
 type DataBase struct {

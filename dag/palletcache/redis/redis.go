@@ -21,7 +21,7 @@ package redis
 import (
 	//toml "github.com/extrame/go-toml-config"
 	"github.com/gomodule/redigo/redis"
-	"github.com/palletone/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/dag/dagconfig"
 )
 
 //TODO

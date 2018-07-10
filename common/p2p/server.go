@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/mclock"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	//"github.com/palletone/go-palletone/common/p2p/discv5"
-	"github.com/palletone/go-palletone/common/p2p/nat"
-	"github.com/palletone/go-palletone/common/p2p/netutil"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/mclock"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	//"github.com/studyzy/go-palletone/common/p2p/discv5"
+	"github.com/studyzy/go-palletone/common/p2p/nat"
+	"github.com/studyzy/go-palletone/common/p2p/netutil"
 )
 
 const (

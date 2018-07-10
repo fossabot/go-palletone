@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/palletone/go-palletone/cmd/console"
-	"github.com/palletone/go-palletone/cmd/utils"
-	"github.com/palletone/go-palletone/common/rpc"
-	"github.com/palletone/go-palletone/core/node"
+	"github.com/studyzy/go-palletone/cmd/console"
+	"github.com/studyzy/go-palletone/cmd/utils"
+	"github.com/studyzy/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/core/node"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -44,7 +44,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/palletone/go-palletone/wiki/JavaScript-Console.`,
+See https://github.com/studyzy/go-palletone/wiki/JavaScript-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -57,7 +57,7 @@ See https://github.com/palletone/go-palletone/wiki/JavaScript-Console.`,
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/palletone/go-palletone/wiki/JavaScript-Console.
+See https://github.com/studyzy/go-palletone/wiki/JavaScript-Console.
 This command allows to open a console on a running gptn node.`,
 	}
 
@@ -70,7 +70,7 @@ This command allows to open a console on a running gptn node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/palletone/go-palletone/wiki/JavaScript-Console`,
+JavaScript API. See https://github.com/studyzy/go-palletone/wiki/JavaScript-Console`,
 	}
 )
 

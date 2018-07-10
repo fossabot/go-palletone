@@ -32,14 +32,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/core/node"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/p2p/simulations"
-	"github.com/palletone/go-palletone/common/p2p/simulations/adapters"
-	"github.com/palletone/go-palletone/common/rlp"
-	"github.com/palletone/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/core/node"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/p2p/simulations"
+	"github.com/studyzy/go-palletone/common/p2p/simulations/adapters"
+	"github.com/studyzy/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

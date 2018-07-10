@@ -20,15 +20,15 @@ package storage
 
 import (
 	"errors"
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 	"log"
 	"strconv"
 	"testing"
 	"time"
 
-	palletdb "github.com/palletone/go-palletone/common/ptndb"
-	config "github.com/palletone/go-palletone/dag/dagconfig"
-	"github.com/palletone/go-palletone/dag/modules"
+	palletdb "github.com/studyzy/go-palletone/common/ptndb"
+	config "github.com/studyzy/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/dag/modules"
 )
 
 func TestSaveJoint(t *testing.T) {

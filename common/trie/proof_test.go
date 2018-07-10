@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/ptndb"
 )
 
 func init() {

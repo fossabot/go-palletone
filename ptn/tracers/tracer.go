@@ -25,11 +25,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/vm"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/vm"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/log"
 	duktape "gopkg.in/olebedev/go-duktape.v3"
 )
 

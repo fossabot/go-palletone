@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 )
 
 func TestSet(t *testing.T) {

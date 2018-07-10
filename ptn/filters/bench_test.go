@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/bitutil"
-	"github.com/palletone/go-palletone/common/bloombits"
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/ptndb"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/core/node"
-	//"github.com/palletone/go-palletone/dag/coredata"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/bitutil"
+	"github.com/studyzy/go-palletone/common/bloombits"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/core/node"
+	//"github.com/studyzy/go-palletone/dag/coredata"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

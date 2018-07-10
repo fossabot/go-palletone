@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/core/accounts/keystore"
-	"github.com/palletone/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/core/accounts/keystore"
+	"github.com/studyzy/go-palletone/core/types"
 )
 
 // Tests that the account management snippets work correctly.

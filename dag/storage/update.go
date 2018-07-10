@@ -19,7 +19,7 @@
 package storage
 
 import (
-	"github.com/palletone/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/dag/dagconfig"
 )
 
 // update

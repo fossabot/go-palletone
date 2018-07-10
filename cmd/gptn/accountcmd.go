@@ -20,13 +20,13 @@ import (
 	"fmt"
 	// "io/ioutil"
 
-	"github.com/palletone/go-palletone/cmd/console"
-	"github.com/palletone/go-palletone/cmd/utils"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/core/accounts"
-	"github.com/palletone/go-palletone/core/accounts/keystore"
+	"github.com/studyzy/go-palletone/cmd/console"
+	"github.com/studyzy/go-palletone/cmd/utils"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/core/accounts/keystore"
 	"gopkg.in/urfave/cli.v1"
 )
 

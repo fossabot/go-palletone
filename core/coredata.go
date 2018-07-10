@@ -21,7 +21,7 @@
 package core
 
 import(
-	"github.com/palletone/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/event"
 )
 
 type ConsensusEngine interface {

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/hexutil"
 )
 
 type bytesBacked interface {

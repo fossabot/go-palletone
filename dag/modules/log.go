@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

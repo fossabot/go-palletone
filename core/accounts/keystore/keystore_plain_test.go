@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

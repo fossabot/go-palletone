@@ -26,9 +26,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/rlp"
-	"github.com/palletone/go-palletone/core"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/core"
 )
 
 /*****************************27 June, 2018 update unit struct type*****************************************/

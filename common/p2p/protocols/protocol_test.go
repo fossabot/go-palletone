@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/p2p/simulations/adapters"
-	p2ptest "github.com/palletone/go-palletone/common/p2p/testing"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/p2p/simulations/adapters"
+	p2ptest "github.com/studyzy/go-palletone/common/p2p/testing"
 )
 
 // handshake message type

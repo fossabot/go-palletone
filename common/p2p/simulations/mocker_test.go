@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
 )
 
 func TestMocker(t *testing.T) {

@@ -32,11 +32,11 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
-	mockpeer "github.com/palletone/go-palletone/core/vmContractPub/mocks/peer"
-	"github.com/palletone/go-palletone/core/vmContractPub/protos/utils"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
+	mockpeer "github.com/studyzy/go-palletone/core/vmContractPub/mocks/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/protos/utils"
 )
 
 // shimTestCC example simple Chaincode implementation

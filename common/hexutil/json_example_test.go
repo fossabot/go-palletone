@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/palletone/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/hexutil"
 )
 
 type MyType [5]byte

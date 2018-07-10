@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/ptndb"
 )
 
 // secureKeyPrefix is the database key prefix used to store trie node preimages.

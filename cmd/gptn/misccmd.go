@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/palletone/go-palletone/cmd/utils"
+	"github.com/studyzy/go-palletone/cmd/utils"
 	//
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/ptn"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/ptn"
 	"gopkg.in/urfave/cli.v1"
 )
 

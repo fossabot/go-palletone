@@ -19,8 +19,8 @@
 package storage
 
 import (
-	"github.com/palletone/go-palletone/dag/dagconfig"
-	"github.com/palletone/go-palletone/dag/util"
+	"github.com/studyzy/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/dag/util"
 )
 
 func Store(key string, value interface{}) error {

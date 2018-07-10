@@ -26,20 +26,20 @@ import (
 	"unicode"
 
 	"github.com/naoina/toml"
-	"github.com/palletone/go-palletone/cmd/utils"
+	"github.com/studyzy/go-palletone/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/palletone/go-palletone/adaptor"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/nat"
-	"github.com/palletone/go-palletone/configure"
-//	"github.com/palletone/go-palletone/consensus/consensusconfig"
-	mp "github.com/palletone/go-palletone/consensus/mediatorplugin"
-	"github.com/palletone/go-palletone/core/node"
-	"github.com/palletone/go-palletone/dag/dagconfig"
-	"github.com/palletone/go-palletone/ptn"
-	"github.com/palletone/go-palletone/statistics/dashboard"
+	"github.com/studyzy/go-palletone/adaptor"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/nat"
+	"github.com/studyzy/go-palletone/configure"
+//	"github.com/studyzy/go-palletone/consensus/consensusconfig"
+	mp "github.com/studyzy/go-palletone/consensus/mediatorplugin"
+	"github.com/studyzy/go-palletone/core/node"
+	"github.com/studyzy/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/ptn"
+	"github.com/studyzy/go-palletone/statistics/dashboard"
 )
 
 var (

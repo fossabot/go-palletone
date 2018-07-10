@@ -20,10 +20,10 @@ package accounts
 import (
 	"math/big"
 
-	ethereum "github.com/palletone/go-palletone"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/common/event"
+	ethereum "github.com/studyzy/go-palletone"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/common/event"
 )
 
 // Account represents an PalletOne account located at a specific location defined

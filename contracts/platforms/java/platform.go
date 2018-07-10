@@ -28,8 +28,8 @@ import (
 	"net/url"
 	"strings"
 
-	cutil "github.com/palletone/go-palletone/vm/common"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	cutil "github.com/studyzy/go-palletone/vm/common"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 // Platform for java chaincodes in java

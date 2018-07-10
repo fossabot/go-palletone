@@ -24,8 +24,8 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 	"google.golang.org/grpc"
 )
 

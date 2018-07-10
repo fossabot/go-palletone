@@ -22,10 +22,10 @@ import (
 	//"math/rand"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/log"
-	//	"github.com/palletone/go-palletone/consensus"
-	"github.com/palletone/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/log"
+	//	"github.com/studyzy/go-palletone/consensus"
+	"github.com/studyzy/go-palletone/core/types"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

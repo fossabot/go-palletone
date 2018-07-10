@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto/sha3"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/trie"
-	"github.com/palletone/go-palletone/dag/coredata"
-	"github.com/palletone/go-palletone/dag/state"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto/sha3"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/trie"
+	"github.com/studyzy/go-palletone/dag/coredata"
+	"github.com/studyzy/go-palletone/dag/state"
 )
 
 // stateReq represents a batch of state fetch requests grouped together into

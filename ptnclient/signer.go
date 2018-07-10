@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

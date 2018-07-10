@@ -22,10 +22,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/log"
 
-	a "github.com/palletone/go-palletone/core/application"
-	m "github.com/palletone/go-palletone/core/mediatorplugin"
+	a "github.com/studyzy/go-palletone/core/application"
+	m "github.com/studyzy/go-palletone/core/mediatorplugin"
 )
 
 func main() {

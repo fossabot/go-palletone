@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/ptndb"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

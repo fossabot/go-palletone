@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/palletone/go-palletone/common/math"
-	"github.com/palletone/go-palletone/common/crypto/randentropy"
+	"github.com/studyzy/go-palletone/common/math"
+	"github.com/studyzy/go-palletone/common/crypto/randentropy"
 )
 
 const TestCount = 1000

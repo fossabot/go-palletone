@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
 )
 
 type TestPeer interface {

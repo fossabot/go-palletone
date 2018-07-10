@@ -23,7 +23,7 @@ package protos;
 option java_package = "protos.peer";
 option go_package = "protos/peer";
 
-import "github.com/palletone/go-palletone/core/protos/peer/chaincode_event.proto";
+import "github.com/studyzy/go-palletone/core/protos/peer/chaincode_event.proto";
 import "peer/proposal.proto";
 import "google/protobuf/timestamp.proto";
 

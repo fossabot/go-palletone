@@ -1,9 +1,9 @@
 package common
 
 import (
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/dag/dagconfig"
-	"github.com/palletone/go-palletone/dag/modules"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/dag/modules"
 	"io/ioutil"
 	"log"
 	"testing"

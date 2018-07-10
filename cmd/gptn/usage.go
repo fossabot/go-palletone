@@ -25,8 +25,8 @@ import (
 
 	"strings"
 
-	"github.com/palletone/go-palletone/cmd/utils"
-	"github.com/palletone/go-palletone/internal/debug"
+	"github.com/studyzy/go-palletone/cmd/utils"
+	"github.com/studyzy/go-palletone/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

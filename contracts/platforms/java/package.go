@@ -25,8 +25,8 @@ import (
 	"strings"
 	"errors"
 
-	cutil "github.com/palletone/go-palletone/vm/common"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	cutil "github.com/studyzy/go-palletone/vm/common"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 //tw is expected to have the chaincode in it from GenerateHashcode.

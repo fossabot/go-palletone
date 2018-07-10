@@ -27,7 +27,7 @@ import (
 	// "strings"
 
 	"github.com/btcsuite/btcutil/base58"
-	"github.com/palletone/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/hexutil"
 	"math/big"
 )
 

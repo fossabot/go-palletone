@@ -23,8 +23,8 @@ package core
 import (
 	"context"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/ccprovider"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/ccprovider"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 // ccProviderFactory implements the ccprovider.ChaincodeProviderFactory

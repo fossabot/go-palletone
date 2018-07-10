@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 )
 
 var (

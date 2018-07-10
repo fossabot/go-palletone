@@ -33,9 +33,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	"github.com/palletone/go-palletone/core/vmContractPub/config"
-	cutil "github.com/palletone/go-palletone/vm/common"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/core/vmContractPub/config"
+	cutil "github.com/studyzy/go-palletone/vm/common"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

@@ -3,7 +3,7 @@ package common
 import (
 	"testing"
 	"log"
-	"github.com/palletone/go-palletone/dag/modules"
+	"github.com/studyzy/go-palletone/dag/modules"
 )
 
 func TestNewGenesisUnit(t *testing.T) {

@@ -34,7 +34,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/palletone/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p"
 )
 
 // error codes used by this  protocol scheme

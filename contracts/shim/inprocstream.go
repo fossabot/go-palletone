@@ -23,7 +23,7 @@ package shim
 import (
 	"fmt"
 
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 //SendPanicFailure

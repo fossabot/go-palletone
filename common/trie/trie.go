@@ -21,10 +21,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 )
 
 var (

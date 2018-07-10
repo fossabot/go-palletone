@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/rlp"
 )
 
 // Entry is implemented by known node record entry types.

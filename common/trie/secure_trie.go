@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

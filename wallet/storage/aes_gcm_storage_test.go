@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 )
 
 func TestEncryption(t *testing.T) {

@@ -18,11 +18,11 @@ package ptn
 
 import (
 	"testing"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/core/types"
 
-	"github.com/palletone/go-palletone/ptn/downloader"
+	"github.com/studyzy/go-palletone/ptn/downloader"
 )
 
 // Tests that protocol versions and modes of operations are matched up properly.

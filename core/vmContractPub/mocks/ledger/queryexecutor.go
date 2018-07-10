@@ -23,7 +23,7 @@ package ledger
 import (
 	"fmt"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/ledger"
+	"github.com/studyzy/go-palletone/core/vmContractPub/ledger"
 )
 
 type MockQueryExecutor struct {

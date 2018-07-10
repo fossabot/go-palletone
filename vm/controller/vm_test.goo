@@ -26,9 +26,9 @@ import (
 
 	"golang.org/x/net/context"
 	"github.com/stretchr/testify/assert"
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	"github.com/palletone/go-palletone/core/vmContractPub/mocks/config"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/core/vmContractPub/mocks/config"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 
 )
 

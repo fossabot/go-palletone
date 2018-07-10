@@ -24,12 +24,12 @@ import (
 	"encoding/json"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/palletone/go-palletone/cmd/utils"
-	"github.com/palletone/go-palletone/core/gen"
-	"github.com/palletone/go-palletone/core/accounts/keystore"
-	"github.com/palletone/go-palletone/core"
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/cmd/console"
+	"github.com/studyzy/go-palletone/cmd/utils"
+	"github.com/studyzy/go-palletone/core/gen"
+	"github.com/studyzy/go-palletone/core/accounts/keystore"
+	"github.com/studyzy/go-palletone/core"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/cmd/console"
 )
 
 const defaultGenesisJsonPath = "./exampleGenesis.json"

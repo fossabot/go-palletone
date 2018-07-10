@@ -25,7 +25,7 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 	"github.com/looplab/fsm"
 	"github.com/pkg/errors"
 )

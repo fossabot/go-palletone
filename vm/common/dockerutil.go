@@ -26,8 +26,8 @@ import (
 
 	"github.com/spf13/viper"
 	"github.com/fsouza/go-dockerclient"
-	"github.com/palletone/go-palletone/core/vmContractPub/metadata"
-	"github.com/palletone/go-palletone/core/vmContractPub/config"
+	"github.com/studyzy/go-palletone/core/vmContractPub/metadata"
+	"github.com/studyzy/go-palletone/core/vmContractPub/config"
 )
 
 //NewDockerClient creates a docker client

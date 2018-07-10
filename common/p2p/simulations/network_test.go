@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/p2p/simulations/adapters"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/p2p/simulations/adapters"
 )
 
 // TestNetworkSimulation creates a multi-node simulation network with each node

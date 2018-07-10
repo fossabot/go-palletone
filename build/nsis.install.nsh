@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/palletone/go-palletone/issues"
-!define UPDATEURL "https://github.com/palletone/go-palletone/releases"
-!define ABOUTURL "https://github.com/palletone/go-palletone#ethereum-go"
+!define HELPURL "https://github.com/studyzy/go-palletone/issues"
+!define UPDATEURL "https://github.com/studyzy/go-palletone/releases"
+!define ABOUTURL "https://github.com/studyzy/go-palletone#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

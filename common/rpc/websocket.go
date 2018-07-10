@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/log"
 	"golang.org/x/net/websocket"
 	"gopkg.in/fatih/set.v0"
 )

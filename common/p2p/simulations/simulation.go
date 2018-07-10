@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/palletone/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
 )
 
 // Simulation provides a framework for running actions in a simulated network

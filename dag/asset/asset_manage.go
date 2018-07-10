@@ -19,7 +19,7 @@
 package asset
 
 import (
-	"github.com/palletone/go-palletone/dag/modules"
+	"github.com/studyzy/go-palletone/dag/modules"
 	"github.com/pborman/uuid"
 	"fmt"
 )

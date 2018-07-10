@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/palletone/go-palletone/core/accounts"
-	"github.com/palletone/go-palletone/core/accounts/keystore"
-	//"github.com/palletone/go-palletone/core/accounts/usbwallet"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/common/rlp"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/internal/ethapi"
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/core/accounts/keystore"
+	//"github.com/studyzy/go-palletone/core/accounts/usbwallet"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/internal/ethapi"
+	"github.com/studyzy/go-palletone/common/log"
 )
 
 // ExternalAPI defines the external API through which signing requests are made.
@@ -385,7 +385,7 @@ func (api *SignerAPI) SignTransaction(ctx context.Context, args SendTxArgs, meth
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/palletone/go-palletone/wiki/Management-APIs#personal_sign
+// https://github.com/studyzy/go-palletone/wiki/Management-APIs#personal_sign
 func (api *SignerAPI) Sign(ctx context.Context, addr common.MixedcaseAddress, data hexutil.Bytes) (hexutil.Bytes, error) {
 	sighash, msg := SignHash(data)
 	// We make the request prior to looking up if we actually have the account, to prevent
@@ -424,7 +424,7 @@ func (api *SignerAPI) Sign(ctx context.Context, addr common.MixedcaseAddress, da
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be be 27 or 28 for legacy reasons.
 //
-// https://github.com/palletone/go-palletone/wiki/Management-APIs#personal_ecRecover
+// https://github.com/studyzy/go-palletone/wiki/Management-APIs#personal_ecRecover
 func (api *SignerAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")

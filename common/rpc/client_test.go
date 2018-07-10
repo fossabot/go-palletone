@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/log"
 )
 
 func TestClientRequest(t *testing.T) {

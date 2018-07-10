@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/log"
 	"github.com/rjeczalik/notify"
 )
 

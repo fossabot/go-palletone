@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 func TestSend(t *testing.T) {

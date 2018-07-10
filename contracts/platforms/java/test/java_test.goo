@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	"github.com/palletone/go-palletone/vm/controller"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
-	"github.com/palletone/go-palletone/core/vmContractPub/mocks/config"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/vm/controller"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/mocks/config"
 
 )
 

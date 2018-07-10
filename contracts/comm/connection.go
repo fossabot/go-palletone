@@ -34,8 +34,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	"github.com/palletone/go-palletone/core/vmContractPub/config"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/core/vmContractPub/config"
 )
 
 const defaultTimeout = time.Second * 3

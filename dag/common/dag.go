@@ -21,9 +21,9 @@ package common
 //import (
 //	"sync"
 //
-//	"github.com/palletone/go-palletone/dag/dagconfig"
-//	"github.com/palletone/go-palletone/dag/modules"
-//	"github.com/palletone/go-palletone/dag/storage"
+//	"github.com/studyzy/go-palletone/dag/dagconfig"
+//	"github.com/studyzy/go-palletone/dag/modules"
+//	"github.com/studyzy/go-palletone/dag/storage"
 //	"github.com/coocood/freecache"
 //)
 //

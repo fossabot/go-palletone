@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/ptndb"
-	"github.com/palletone/go-palletone/common/rpc"
-	"github.com/palletone/go-palletone/core/accounts"
-	"github.com/palletone/go-palletone/internal/debug"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/internal/debug"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

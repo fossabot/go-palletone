@@ -29,10 +29,10 @@ import (
 	"os"
 
 	"github.com/btcsuite/btcutil/base58"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto/sha3"
-	"github.com/palletone/go-palletone/common/math"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto/sha3"
+	"github.com/studyzy/go-palletone/common/math"
+	"github.com/studyzy/go-palletone/common/rlp"
 )
 
 var (

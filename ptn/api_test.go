@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/palletone/go-palletone/common"
-	//"github.com/palletone/go-palletone/dag/state"
+	"github.com/studyzy/go-palletone/common"
+	//"github.com/studyzy/go-palletone/dag/state"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

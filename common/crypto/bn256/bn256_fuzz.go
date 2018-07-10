@@ -22,8 +22,8 @@ import (
 	"bytes"
 	"math/big"
 
-	cloudflare "github.com/palletone/go-palletone/common/crypto/bn256/cloudflare"
-	google "github.com/palletone/go-palletone/common/crypto/bn256/google"
+	cloudflare "github.com/studyzy/go-palletone/common/crypto/bn256/cloudflare"
+	google "github.com/studyzy/go-palletone/common/crypto/bn256/google"
 )
 
 // FuzzAdd fuzzez bn256 addition between the Google and Cloudflare libraries.

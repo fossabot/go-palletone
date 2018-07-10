@@ -29,11 +29,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/p2p/simulations/adapters"
-	"github.com/palletone/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/p2p/simulations/adapters"
+	"github.com/studyzy/go-palletone/common/rpc"
 	"github.com/julienschmidt/httprouter"
 	"golang.org/x/net/websocket"
 )

@@ -24,7 +24,7 @@ import (
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
-	"github.com/palletone/go-palletone/core/vmContractPub/metadata"
+	"github.com/studyzy/go-palletone/core/vmContractPub/metadata"
 )
 
 func TestUtil_DockerfileTemplateParser(t *testing.T) {

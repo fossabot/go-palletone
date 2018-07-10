@@ -23,9 +23,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/palletone/go-palletone/contracts/shim"
-	"github.com/palletone/go-palletone/core/vmContractPub/ccprovider"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/contracts/shim"
+	"github.com/studyzy/go-palletone/core/vmContractPub/ccprovider"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 )

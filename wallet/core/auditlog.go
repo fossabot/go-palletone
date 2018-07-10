@@ -21,11 +21,11 @@ import (
 
 	"encoding/json"
 
-	"github.com/palletone/go-palletone/core/accounts"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/internal/ethapi"
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/internal/ethapi"
+	"github.com/studyzy/go-palletone/common/log"
 )
 
 type AuditLogger struct {

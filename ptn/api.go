@@ -20,12 +20,12 @@ import (
 	"context"
 	//"fmt"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
-	//"github.com/palletone/go-palletone/common/trie"
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/core/types"
-	//"github.com/palletone/go-palletone/dag/coredata"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	//"github.com/studyzy/go-palletone/common/trie"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/core/types"
+	//"github.com/studyzy/go-palletone/dag/coredata"
 )
 
 // PublicEthereumAPI provides an API to access PalletOne full node-related

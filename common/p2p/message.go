@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/rlp"
 )
 
 // Msg defines the structure of a p2p message.

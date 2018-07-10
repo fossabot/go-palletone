@@ -27,9 +27,9 @@ import (
 	"os"
 
 	"archive/tar"
-	"github.com/palletone/go-palletone/core/vmContractPub/metadata"
-	"github.com/palletone/go-palletone/contracts/platforms/golang"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/metadata"
+	"github.com/studyzy/go-palletone/contracts/platforms/golang"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

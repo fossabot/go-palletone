@@ -33,11 +33,11 @@ import (
 	"time"
 
 	"github.com/elastic/gosigar"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/rpc"
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 	"golang.org/x/net/websocket"
 )
 

@@ -22,9 +22,9 @@ import (
 	//"fmt"
 	//"sync"
 
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/core"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/core"
 )
 
 // Engine is an algorithm agnostic consensus engine.

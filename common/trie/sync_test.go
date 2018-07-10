@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/ptndb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

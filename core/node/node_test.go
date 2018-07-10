@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/rpc"
 )
 
 var (

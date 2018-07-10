@@ -36,11 +36,11 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/core/node"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/core/node"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/rpc"
 	"golang.org/x/net/websocket"
 )
 

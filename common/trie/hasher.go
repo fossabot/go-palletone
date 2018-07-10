@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto/sha3"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto/sha3"
+	"github.com/studyzy/go-palletone/common/rlp"
 )
 
 type hasher struct {

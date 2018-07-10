@@ -10,7 +10,7 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/github.com/palletone"
+ethdir="$workspace/src/github.com/studyzy"
 if [ ! -L "$ethdir/go-palletone" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"

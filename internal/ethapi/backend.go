@@ -21,16 +21,16 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/ptndb"
-	"github.com/palletone/go-palletone/common/rpc"
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/core/accounts"
-	"github.com/palletone/go-palletone/dag/coredata"
-	"github.com/palletone/go-palletone/dag/state"
-	"github.com/palletone/go-palletone/ptn/downloader"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/dag/coredata"
+	"github.com/studyzy/go-palletone/dag/state"
+	"github.com/studyzy/go-palletone/ptn/downloader"
 )
 
 // Backend interface provides the common API services (that are provided by

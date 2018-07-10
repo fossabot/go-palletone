@@ -32,10 +32,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 	"github.com/spf13/viper"
-	"github.com/palletone/go-palletone/vm/ccintf"
-	"github.com/palletone/go-palletone/vm/dockercontroller"
-	"github.com/palletone/go-palletone/core/vmContractPub/config"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/vm/ccintf"
+	"github.com/studyzy/go-palletone/vm/dockercontroller"
+	"github.com/studyzy/go-palletone/core/vmContractPub/config"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 /**** not using actual files from file system for testing.... use these funcs if we want to do that

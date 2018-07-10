@@ -147,7 +147,7 @@ func Test_WriteFolderToTarPackage1(t *testing.T) {
 	gopath = filepath.SplitList(gopath)[0]
 
 	srcPath := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/contracts/example/java/SimpleSample")
+		"github.com/studyzy/go-palletone/contracts/example/java/SimpleSample")
 	filePath := "src/src/main/java/example/SimpleSample.java"
 	includeFileTypes := map[string]bool{
 		".java": true,
@@ -177,7 +177,7 @@ func Test_WriteFolderToTarPackage2(t *testing.T) {
 	gopath = filepath.SplitList(gopath)[0]
 
 	srcPath := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/contracts/examples/java")
+		"github.com/studyzy/go-palletone/contracts/examples/java")
 	excludeFileTypes := map[string]bool{
 		".xml": true,
 	}
@@ -195,7 +195,7 @@ func Test_WriteFolderToTarPackage3(t *testing.T) {
 	// but we can still use the go example for unit test,
 	// since there are no node chaincode examples in repos
 	srcPath := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/contracts/examples/go/marbles02")
+		"github.com/studyzy/go-palletone/contracts/examples/go/marbles02")
 	filePath := "META-INF/statedb/couchdb/indexes/indexOwner.json"
 
 	tarBytes := createTestTar(t, srcPath, "", nil, nil)
@@ -232,7 +232,7 @@ func Test_WriteFolderToTarPackage4(t *testing.T) {
 	// but we can still use the go example for unit test,
 	// since there are no node chaincode examples in repos
 	srcPath := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/contracts/examples/go/marbles02")
+		"github.com/studyzy/go-palletone/contracts/examples/go/marbles02")
 	srcPath = srcPath + "/"
 	filePath := "META-INF/statedb/couchdb/indexes/indexOwner.json"
 
@@ -267,7 +267,7 @@ func Test_WriteFolderToTarPackage5(t *testing.T) {
 	gopath = filepath.SplitList(gopath)[0]
 
 	srcPath := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/contracts/examples/go/BadMetadataIgnoreHiddenFile")
+		"github.com/studyzy/go-palletone/contracts/examples/go/BadMetadataIgnoreHiddenFile")
 
 	filePath := "META-INF/.hiddenfile"
 
@@ -309,7 +309,7 @@ func Test_WriteFolderToTarPackageFailure1(t *testing.T) {
 	gopath = filepath.SplitList(gopath)[0]
 
 	srcPath := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/vm/util",
+		"github.com/studyzy/go-palletone/vm/util",
 		fmt.Sprintf("%d", os.Getpid()))
 	os.Mkdir(srcPath, os.ModePerm)
 	defer os.Remove(srcPath)
@@ -330,7 +330,7 @@ func Test_WriteFolderToTarPackageFailure2(t *testing.T) {
 	// but we can still use the go example for unit test,
 	// since there are no node chaincode examples in repos
 	srcPath := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/contracts/examples/go/BadMetadataInvalidIndex")
+		"github.com/studyzy/go-palletone/contracts/examples/go/BadMetadataInvalidIndex")
 
 	buf := bytes.NewBuffer(nil)
 	gw := gzip.NewWriter(buf)
@@ -353,7 +353,7 @@ func Test_WriteFolderToTarPackageFailure3(t *testing.T) {
 	// but we can still use the go example for unit test,
 	// since there are no node chaincode examples in repos
 	srcPath := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/contracts/examples/go/BadMetadataUnexpectedFolderContent")
+		"github.com/studyzy/go-palletone/contracts/examples/go/BadMetadataUnexpectedFolderContent")
 
 	buf := bytes.NewBuffer(nil)
 	gw := gzip.NewWriter(buf)
@@ -374,7 +374,7 @@ func Test_WriteJavaProjectToPackage(t *testing.T) {
 	gopath := os.Getenv("GOPATH")
 	gopath = filepath.SplitList(gopath)[0]
 	pkgDir := filepath.Join(gopath, "src",
-		"github.com/palletone/go-palletone/contracts/examples/java")
+		"github.com/studyzy/go-palletone/contracts/examples/java")
 	err := WriteJavaProjectToPackage(tw, pkgDir)
 	assert.NoError(t, err, "Error writing java project to package")
 

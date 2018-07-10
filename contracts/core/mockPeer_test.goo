@@ -21,11 +21,11 @@ package core
 
 import (
 	"sync"
-	"github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
 	"github.com/golang/protobuf/proto"
-	"github.com/palletone/go-palletone/core/vmContractPub/protos/common"
-	"github.com/palletone/go-palletone/core/vmContractPub/crypto"
+	"github.com/studyzy/go-palletone/core/vmContractPub/protos/common"
+	"github.com/studyzy/go-palletone/core/vmContractPub/crypto"
 	"encoding/hex"
 	"fmt"
 )

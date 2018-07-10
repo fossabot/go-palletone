@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

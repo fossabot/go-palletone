@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/ptndb"
-	"github.com/palletone/go-palletone/common/trie"
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/core/types"
-	//"github.com/palletone/go-palletone/dag/coredata"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common/trie"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/core/types"
+	//"github.com/studyzy/go-palletone/dag/coredata"
 )
 
 var (

@@ -22,7 +22,7 @@ package dpos
 import (
 	"time"
 
-	v "github.com/palletone/go-palletone/dag/verifiedunit"
+	v "github.com/studyzy/go-palletone/dag/verifiedunit"
 )
 
 // 区块链属性结构体的定义

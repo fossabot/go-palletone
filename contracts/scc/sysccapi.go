@@ -24,15 +24,15 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	"github.com/palletone/go-palletone/contracts/shim"
-	"github.com/palletone/go-palletone/core/vmContractPub/ccprovider"
-	"github.com/palletone/go-palletone/vm/inproccontroller"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/contracts/shim"
+	"github.com/studyzy/go-palletone/core/vmContractPub/ccprovider"
+	"github.com/studyzy/go-palletone/vm/inproccontroller"
 
 	"github.com/spf13/viper"
 
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 var sysccLogger = flogging.MustGetLogger("sccapi")

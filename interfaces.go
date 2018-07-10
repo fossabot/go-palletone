@@ -23,8 +23,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

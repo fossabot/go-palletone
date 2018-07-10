@@ -19,8 +19,8 @@ package rlp
 import (
 	"io"
 	"reflect"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto/sha3"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto/sha3"
 )
 
 // RawValue represents an encoded RLP value and can be used to delay

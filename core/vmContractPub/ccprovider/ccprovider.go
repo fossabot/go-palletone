@@ -30,9 +30,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
 
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 var ccproviderLogger = flogging.MustGetLogger("ccprovider")

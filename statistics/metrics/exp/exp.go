@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 )
 
 type exp struct {

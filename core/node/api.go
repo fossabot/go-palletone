@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/rpc"
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 )
 
 // PrivateAdminAPI is the collection of administrative API methods exposed only

@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/palletone/go-palletone/common/math"
+	"github.com/studyzy/go-palletone/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

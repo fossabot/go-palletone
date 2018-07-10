@@ -6,7 +6,7 @@ import (
 	uurl "net/url"
 	"time"
 
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 	"github.com/influxdata/influxdb/client"
 )
 

@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

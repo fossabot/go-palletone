@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/palletone/go-palletone/common/math"
+	"github.com/studyzy/go-palletone/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

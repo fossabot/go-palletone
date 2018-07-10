@@ -24,11 +24,11 @@ import (
 	"io"
 
 	"golang.org/x/net/context"
-	"github.com/palletone/go-palletone/vm/ccintf"
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	"github.com/palletone/go-palletone/contracts/shim"
-	container "github.com/palletone/go-palletone/vm/api"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/vm/ccintf"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/contracts/shim"
+	container "github.com/studyzy/go-palletone/vm/api"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 type inprocContainer struct {

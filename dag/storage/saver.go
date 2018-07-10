@@ -22,13 +22,13 @@ import (
 	"encoding/binary"
 	"encoding/json"
 	"errors"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common/rlp"
 	"log"
 
-	palletdb "github.com/palletone/go-palletone/common/ptndb"
-	"github.com/palletone/go-palletone/dag/constants"
-	"github.com/palletone/go-palletone/dag/dagconfig"
-	"github.com/palletone/go-palletone/dag/modules"
+	palletdb "github.com/studyzy/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/dag/constants"
+	"github.com/studyzy/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/dag/modules"
 )
 
 var (

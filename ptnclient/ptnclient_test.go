@@ -16,7 +16,7 @@
 
 package ptnclient
 
-import "github.com/palletone/go-palletone"
+import "github.com/studyzy/go-palletone"
 
 // Verify that Client implements the palletone interfaces.
 var (

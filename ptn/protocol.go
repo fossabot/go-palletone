@@ -21,11 +21,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/rlp"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/dag/coredata"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/dag/coredata"
 )
 
 // Constants to match up protocol versions and messages

@@ -32,11 +32,11 @@ import (
 	"strings"
 	"sort"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/metadata"
-	"github.com/palletone/go-palletone/contracts/platforms/util"
-	ccmetadata "github.com/palletone/go-palletone/core/vmContractPub/ccprovider/metadata"
-	cutil "github.com/palletone/go-palletone/vm/common"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/metadata"
+	"github.com/studyzy/go-palletone/contracts/platforms/util"
+	ccmetadata "github.com/studyzy/go-palletone/core/vmContractPub/ccprovider/metadata"
+	cutil "github.com/studyzy/go-palletone/vm/common"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 	"github.com/spf13/viper"
 	"io/ioutil"
 )
@@ -292,8 +292,8 @@ func (goPlatform *Platform) GetDeploymentPayload(spec *pb.ChaincodeSpec) ([]byte
 	// Remove any imports that are provided by the ccenv or system
 	// --------------------------------------------------------------------------------------
 	var provided = map[string]bool{
-		"github.com/palletone/go-palletone/contracts/shim": true,
-		"github.com/palletone/go-palletone/core/vmContractPub/protos/peer":         true,
+		"github.com/studyzy/go-palletone/contracts/shim": true,
+		"github.com/studyzy/go-palletone/core/vmContractPub/protos/peer":         true,
 	}
 
 	// Golang "pseudo-packages" - packages which don't actually exist
@@ -435,7 +435,7 @@ func (goPlatform *Platform) GetDeploymentPayload(spec *pb.ChaincodeSpec) ([]byte
 		// file.Name represents tar packagepath
 
 		// If the file is metadata rather than golang code, remove the leading go code path, for example:
-		// original file.Name:  src/github.com/palletone/go-palletone/contracts/examples/go/marbles02/META-INF/statedb/couchdb/indexes/indexOwner.json
+		// original file.Name:  src/github.com/studyzy/go-palletone/contracts/examples/go/marbles02/META-INF/statedb/couchdb/indexes/indexOwner.json
 		// updated file.Name:   META-INF/statedb/couchdb/indexes/indexOwner.json
 		if file.IsMetadata {
 			//glh

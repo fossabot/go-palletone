@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/palletone/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/event"
 )
 
 func ExampleNewSubscription() {

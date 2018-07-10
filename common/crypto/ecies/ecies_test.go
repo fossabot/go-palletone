@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/palletone/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/crypto"
 )
 
 var dumpEnc bool

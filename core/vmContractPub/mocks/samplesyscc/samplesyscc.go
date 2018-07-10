@@ -20,8 +20,8 @@
 package samplesyscc
 
 import (
-	"github.com/palletone/go-palletone/contracts/shim"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/contracts/shim"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 	"fmt"
 )
 

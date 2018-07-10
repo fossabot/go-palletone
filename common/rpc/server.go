@@ -25,7 +25,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/log"
 	"gopkg.in/fatih/set.v0"
 )
 

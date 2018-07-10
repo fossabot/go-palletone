@@ -19,7 +19,7 @@
 package modules
 
 import (
-	"github.com/palletone/go-palletone/dag/util"
+	"github.com/studyzy/go-palletone/dag/util"
 )
 
 // type 	Hash 		[]byte

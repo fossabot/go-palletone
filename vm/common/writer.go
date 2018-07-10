@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
 
 )
 

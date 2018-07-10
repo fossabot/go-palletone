@@ -24,13 +24,13 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	"github.com/palletone/go-palletone/contracts/shim"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/contracts/shim"
 
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
-	"github.com/palletone/go-palletone/core/vmContractPub/ccprovider"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/ccprovider"
 )
 
 //create a chaincode invocation spec

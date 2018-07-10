@@ -33,8 +33,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/config"
-	"github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/config"
+	"github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 	"github.com/spf13/viper"
 )
 

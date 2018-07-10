@@ -17,8 +17,8 @@
 package ptn
 
 import (
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 )
 
 var (

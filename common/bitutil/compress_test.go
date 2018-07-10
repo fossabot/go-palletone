@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/palletone/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 	"hash"
-	"github.com/palletone/go-palletone/core/vmContractPub/metadata"
+	"github.com/studyzy/go-palletone/core/vmContractPub/metadata"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
 	"crypto/sha256"

@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/ptn/downloader"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/ptn/downloader"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

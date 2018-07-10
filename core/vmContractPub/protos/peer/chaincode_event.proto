@@ -21,7 +21,7 @@ syntax = "proto3";
 package protos;
 option java_package = "protos.peer";
 option java_outer_classname = "ChaincodeEventPackage";
-option go_package = "github.com/palletone/go-palletone/core/vmContractPub/protos/peer";
+option go_package = "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer";
 
 //ChaincodeEvent is used for events and registrations that are specific to chaincode
 //string type - "chaincode"

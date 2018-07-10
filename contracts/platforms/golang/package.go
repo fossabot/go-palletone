@@ -27,9 +27,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	ccutil "github.com/palletone/go-palletone/contracts/platforms/util"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	ccutil "github.com/studyzy/go-palletone/contracts/platforms/util"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 var includeFileTypes = map[string]bool{

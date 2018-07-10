@@ -26,11 +26,11 @@ import (
 	//"sync"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/common/rpc"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/dag/state"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/dag/state"
 )
 
 const (

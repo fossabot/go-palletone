@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/palletone/go-palletone/core/node"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/core/node"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

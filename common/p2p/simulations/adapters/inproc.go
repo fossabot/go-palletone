@@ -23,12 +23,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/palletone/go-palletone/common/event"
-	//"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/core/node"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/common/event"
+	//"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/core/node"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 )
 
 type AddrLocker struct {

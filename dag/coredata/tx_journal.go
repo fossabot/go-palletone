@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/rlp"
-	"github.com/palletone/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/core/types"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

@@ -32,21 +32,21 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	commonledger "github.com/palletone/go-palletone/core/vmContractPub/ledger"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	commonledger "github.com/studyzy/go-palletone/core/vmContractPub/ledger"
 
-	mocklgr "github.com/palletone/go-palletone/core/vmContractPub/mocks/ledger"
-	mockpeer "github.com/palletone/go-palletone/core/vmContractPub/mocks/peer"
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	"github.com/palletone/go-palletone/contracts/accesscontrol"
-	"github.com/palletone/go-palletone/contracts/shim"
-	"github.com/palletone/go-palletone/core/vmContractPub/ccprovider"
-	"github.com/palletone/go-palletone/vm/controller"
+	mocklgr "github.com/studyzy/go-palletone/core/vmContractPub/mocks/ledger"
+	mockpeer "github.com/studyzy/go-palletone/core/vmContractPub/mocks/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/contracts/accesscontrol"
+	"github.com/studyzy/go-palletone/contracts/shim"
+	"github.com/studyzy/go-palletone/core/vmContractPub/ccprovider"
+	"github.com/studyzy/go-palletone/vm/controller"
 
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
-	putils "github.com/palletone/go-palletone/core/vmContractPub/protos/utils"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
+	putils "github.com/studyzy/go-palletone/core/vmContractPub/protos/utils"
 
-	"github.com/palletone/go-palletone/contracts/scc"
+	"github.com/studyzy/go-palletone/contracts/scc"
 	"github.com/spf13/viper"
 	"golang.org/x/net/context"
 )

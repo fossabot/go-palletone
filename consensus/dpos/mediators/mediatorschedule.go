@@ -22,7 +22,7 @@ package mediators
 import (
 	"time"
 
-	d "github.com/palletone/go-palletone/consensus/dpos"
+	d "github.com/studyzy/go-palletone/consensus/dpos"
 )
 
 // Mediator调度顺序结构体

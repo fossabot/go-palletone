@@ -26,10 +26,10 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	"github.com/palletone/go-palletone/contracts/platforms"
-	cutil "github.com/palletone/go-palletone/vm/common"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/contracts/platforms"
+	cutil "github.com/studyzy/go-palletone/vm/common"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 // VM implementation of VM management functionality.

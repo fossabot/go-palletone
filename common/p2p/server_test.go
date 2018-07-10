@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/crypto/sha3"
-	"github.com/palletone/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/crypto/sha3"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
 )
 
 func init() {

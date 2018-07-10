@@ -27,16 +27,16 @@ import (
 	"time"
 	"fmt"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	"github.com/palletone/go-palletone/contracts/accesscontrol"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/contracts/accesscontrol"
 
-	"github.com/palletone/go-palletone/contracts/scc"
-	"github.com/palletone/go-palletone/core/vmContractPub/mocks/samplesyscc"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/contracts/scc"
+	"github.com/studyzy/go-palletone/core/vmContractPub/mocks/samplesyscc"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 	"github.com/spf13/viper"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	"github.com/palletone/go-palletone/core/vmContractPub/ccprovider"
+	"github.com/studyzy/go-palletone/core/vmContractPub/ccprovider"
 )
 
 type oldSysCCInfo struct {

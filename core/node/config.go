@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/palletone/go-palletone/core/accounts"
-	"github.com/palletone/go-palletone/core/accounts/keystore"
-	//"github.com/palletone/go-palletone/core/accounts/usbwallet"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/core/accounts/keystore"
+	//"github.com/studyzy/go-palletone/core/accounts/usbwallet"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
 )
 
 const (

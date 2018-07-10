@@ -22,10 +22,10 @@ import (
 
 	"math/big"
 
-	"github.com/palletone/go-palletone/core/accounts"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/core/types"
 )
 
 type Accounts []Account

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 )
 
 /*

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/ptndb"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

@@ -27,8 +27,8 @@ import (
 
 	"github.com/op/go-logging"
 	"github.com/spf13/viper"
-	"github.com/palletone/go-palletone/core/vmContractPub/config"
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/core/vmContractPub/config"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
 )
 
 // Config the config wrapper structure

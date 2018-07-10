@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/internal/jsre/deps"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

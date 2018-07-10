@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/palletone/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

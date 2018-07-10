@@ -35,11 +35,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	commonledger "github.com/palletone/go-palletone/core/vmContractPub/ledger"
-	"github.com/palletone/go-palletone/contracts/comm"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	commonledger "github.com/studyzy/go-palletone/core/vmContractPub/ledger"
+	"github.com/studyzy/go-palletone/contracts/comm"
 
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 
 	"github.com/op/go-logging"
 	"github.com/pkg/errors"

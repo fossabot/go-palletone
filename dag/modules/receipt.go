@@ -3,7 +3,7 @@
 package modules
 
 import (
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 )
 
 // Receipt represents the results of a transaction.

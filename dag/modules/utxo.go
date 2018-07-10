@@ -21,8 +21,8 @@ package modules
 
 import (
 	"fmt"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/rlp"
 	"strings"
 )
 

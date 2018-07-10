@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/p2p/discover"
-	"github.com/palletone/go-palletone/common/p2p/simulations/adapters"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/common/p2p/simulations/adapters"
 )
 
 var dialBanTimeout = 200 * time.Millisecond

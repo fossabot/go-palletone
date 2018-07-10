@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/rpc"
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/internal/ethapi"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/internal/ethapi"
 )
 
 var maxPrice = big.NewInt(1 * configure.PalletOne)

@@ -19,8 +19,8 @@ package state
 import (
 	"math/big"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/trie"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/trie"
 )
 
 type StateDB struct{}

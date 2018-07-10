@@ -22,7 +22,7 @@ package api
 import (
 	"io"
 	"golang.org/x/net/context"
-	"github.com/palletone/go-palletone/vm/ccintf"
+	"github.com/studyzy/go-palletone/vm/ccintf"
 )
 
 type BuildSpecFactory func() (io.Reader, error)

@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/palletone/go-palletone/common/bitutil"
-	"github.com/palletone/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/bitutil"
+	"github.com/studyzy/go-palletone/common/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

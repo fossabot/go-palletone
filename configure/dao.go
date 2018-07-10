@@ -19,7 +19,7 @@ package configure
 import (
 	"math/big"
 
-	"github.com/palletone/go-palletone/common"
+	"github.com/studyzy/go-palletone/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

@@ -35,11 +35,11 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/net/context"
 	"github.com/fsouza/go-dockerclient"
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	"github.com/palletone/go-palletone/vm/ccintf"
-	container "github.com/palletone/go-palletone/vm/api"
-	com "github.com/palletone/go-palletone/vm/common"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/vm/ccintf"
+	container "github.com/studyzy/go-palletone/vm/api"
+	com "github.com/studyzy/go-palletone/vm/common"
 )
 
 var (

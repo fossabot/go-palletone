@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/core"
-	"github.com/palletone/go-palletone/core/node"
-	"github.com/palletone/go-palletone/internal/jsre"
-	"github.com/palletone/go-palletone/ptn"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/core"
+	"github.com/studyzy/go-palletone/core/node"
+	"github.com/studyzy/go-palletone/internal/jsre"
+	"github.com/studyzy/go-palletone/ptn"
 )
 
 const (

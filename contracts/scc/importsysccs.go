@@ -24,7 +24,7 @@ var systemChaincodes = []*SystemChaincode{
 	{
 		Enabled:           true,
 		Name:              "cscc",
-		Path:              "github.com/palletone/go-palletone/contracts/scc/cscc",
+		Path:              "github.com/studyzy/go-palletone/contracts/scc/cscc",
 		InitArgs:          [][]byte{[]byte("")},
 		//glh
 		//Chaincode:         &cscc.PeerConfiger{},
@@ -33,7 +33,7 @@ var systemChaincodes = []*SystemChaincode{
 	{
 		Enabled:           true,
 		Name:              "lscc",
-		Path:              "github.com/palletone/go-palletone/contracts/scc/lscc",
+		Path:              "github.com/studyzy/go-palletone/contracts/scc/lscc",
 		InitArgs:          [][]byte{[]byte("")},
 		//glh
 		//Chaincode:         lscc.NewLifeCycleSysCC(),
@@ -43,7 +43,7 @@ var systemChaincodes = []*SystemChaincode{
 	{
 		Enabled:   true,
 		Name:      "escc",
-		Path:      "github.com/palletone/go-palletone/contracts/scc/escc",
+		Path:      "github.com/studyzy/go-palletone/contracts/scc/escc",
 		InitArgs:  [][]byte{[]byte("")},
 		//glh
 		//Chaincode: &escc.EndorserOneValidSignature{},
@@ -51,7 +51,7 @@ var systemChaincodes = []*SystemChaincode{
 	{
 		Enabled:   true,
 		Name:      "vscc",
-		Path:      "github.com/palletone/go-palletone/contracts/scc/vscc",
+		Path:      "github.com/studyzy/go-palletone/contracts/scc/vscc",
 		InitArgs:  [][]byte{[]byte("")},
 		//glh
 		//Chaincode: &vscc.ValidatorOneValidSignature{},
@@ -59,7 +59,7 @@ var systemChaincodes = []*SystemChaincode{
 	{
 		Enabled:           true,
 		Name:              "qscc",
-		Path:              "github.com/palletone/go-palletone/contracts/scc/qscc",
+		Path:              "github.com/studyzy/go-palletone/contracts/scc/qscc",
 		InitArgs:          [][]byte{[]byte("")},
 		//glh
 		//Chaincode:         &qscc.LedgerQuerier{},

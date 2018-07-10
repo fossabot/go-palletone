@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/dag/state"
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/dag/state"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

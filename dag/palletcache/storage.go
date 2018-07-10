@@ -21,10 +21,10 @@ package palletcache
 import (
 	"encoding/json"
 
-	"github.com/palletone/go-palletone/common/log"
-	config "github.com/palletone/go-palletone/dag/dagconfig"
-	"github.com/palletone/go-palletone/dag/palletcache/cache"
-	th_redis "github.com/palletone/go-palletone/dag/palletcache/redis"
+	"github.com/studyzy/go-palletone/common/log"
+	config "github.com/studyzy/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/dag/palletcache/cache"
+	th_redis "github.com/studyzy/go-palletone/dag/palletcache/redis"
 )
 
 var (

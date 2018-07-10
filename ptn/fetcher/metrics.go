@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 )
 
 var (

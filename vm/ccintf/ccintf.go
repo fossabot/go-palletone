@@ -27,8 +27,8 @@ import (
 	"encoding/hex"
 
 	"golang.org/x/net/context"
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 
 )
 

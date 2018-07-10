@@ -27,11 +27,11 @@ import (
 	//	"sync/atomic"
 	//	"time"
 	//
-	"github.com/palletone/go-palletone/common"
-	//	"github.com/palletone/go-palletone/common/crypto"
-	//	"github.com/palletone/go-palletone/common/crypto/sha3"
-	//	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/common"
+	//	"github.com/studyzy/go-palletone/common/crypto"
+	//	"github.com/studyzy/go-palletone/common/crypto/sha3"
+	//	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/rlp"
 )
 
 var (

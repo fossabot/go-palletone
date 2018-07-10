@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/rlp"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/ptn/downloader"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/rlp"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/ptn/downloader"
 )
 
 func init() {

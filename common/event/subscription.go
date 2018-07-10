@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palletone/go-palletone/common/mclock"
+	"github.com/studyzy/go-palletone/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

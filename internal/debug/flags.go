@@ -23,10 +23,10 @@ import (
 	"runtime"
 
 	"github.com/fjl/memsize/memsizeui"
-	//cfgHelper "github.com/palletone/go-palletone/common/configure"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/statistics/metrics"
-	"github.com/palletone/go-palletone/statistics/metrics/exp"
+	//cfgHelper "github.com/studyzy/go-palletone/common/configure"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/statistics/metrics/exp"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -5,16 +5,16 @@ package ptn
 import (
 	"math/big"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
-	"github.com/palletone/go-palletone/common/log"
-//	"github.com/palletone/go-palletone/consensus/consensusconfig"
-	mp "github.com/palletone/go-palletone/consensus/mediatorplugin"
-	"github.com/palletone/go-palletone/core"
-	"github.com/palletone/go-palletone/dag/coredata"
-	"github.com/palletone/go-palletone/dag/dagconfig"
-	"github.com/palletone/go-palletone/ptn/downloader"
-	"github.com/palletone/go-palletone/ptn/gasprice"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common/log"
+//	"github.com/studyzy/go-palletone/consensus/consensusconfig"
+	mp "github.com/studyzy/go-palletone/consensus/mediatorplugin"
+	"github.com/studyzy/go-palletone/core"
+	"github.com/studyzy/go-palletone/dag/coredata"
+	"github.com/studyzy/go-palletone/dag/dagconfig"
+	"github.com/studyzy/go-palletone/ptn/downloader"
+	"github.com/studyzy/go-palletone/ptn/gasprice"
 )
 
 var _ = (*configMarshaling)(nil)

@@ -25,10 +25,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"github.com/palletone/go-palletone/vm/api"
-	"github.com/palletone/go-palletone/vm/ccintf"
-	"github.com/palletone/go-palletone/vm/dockercontroller"
-	"github.com/palletone/go-palletone/vm/inproccontroller"
+	"github.com/studyzy/go-palletone/vm/api"
+	"github.com/studyzy/go-palletone/vm/ccintf"
+	"github.com/studyzy/go-palletone/vm/dockercontroller"
+	"github.com/studyzy/go-palletone/vm/inproccontroller"
 )
 
 type refCountedLock struct {

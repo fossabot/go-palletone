@@ -24,12 +24,12 @@ import (
 	"time"
 	"strconv"
 
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/log"
 
-	d "github.com/palletone/go-palletone/consensus/dpos"
-	a "github.com/palletone/go-palletone/core/application"
-	s "github.com/palletone/go-palletone/consensus/dpos/mediators"
-	v "github.com/palletone/go-palletone/dag/verifyunit"
+	d "github.com/studyzy/go-palletone/consensus/dpos"
+	a "github.com/studyzy/go-palletone/core/application"
+	s "github.com/studyzy/go-palletone/consensus/dpos/mediators"
+	v "github.com/studyzy/go-palletone/dag/verifyunit"
 )
 
 var (

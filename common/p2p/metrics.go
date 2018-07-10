@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 )
 
 var (

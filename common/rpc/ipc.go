@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/p2p/netutil"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

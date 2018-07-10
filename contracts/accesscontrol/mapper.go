@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/util"
+	"github.com/studyzy/go-palletone/core/vmContractPub/util"
 	"github.com/spf13/viper"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/credentials"

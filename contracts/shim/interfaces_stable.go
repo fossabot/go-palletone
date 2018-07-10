@@ -23,7 +23,7 @@ package shim
 import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 // Chaincode interface must be implemented by all chaincodes. The runs

@@ -28,8 +28,8 @@ import (
 	"strings"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/palletone/go-palletone/core/node"
-	"github.com/palletone/go-palletone/common/p2p/discover"
+	"github.com/studyzy/go-palletone/core/node"
+	"github.com/studyzy/go-palletone/common/p2p/discover"
 )
 
 // DockerAdapter is a NodeAdapter which runs simulation nodes inside Docker

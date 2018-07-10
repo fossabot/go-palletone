@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/palletone/go-palletone/common/crypto"
+	ethcrypto "github.com/studyzy/go-palletone/common/crypto"
 )
 
 var (

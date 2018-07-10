@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/palletone/go-palletone"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/core/types"
-	"github.com/palletone/go-palletone/dag/coredata"
-	//"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/rpc"
+	ethereum "github.com/studyzy/go-palletone"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/core/types"
+	"github.com/studyzy/go-palletone/dag/coredata"
+	//"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

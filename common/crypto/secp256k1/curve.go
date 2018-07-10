@@ -36,7 +36,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/palletone/go-palletone/common/math"
+	"github.com/studyzy/go-palletone/common/math"
 )
 
 /*

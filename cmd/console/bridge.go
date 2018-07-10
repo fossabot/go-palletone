@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	//"github.com/palletone/go-palletone/core/accounts/usbwallet"
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/common/rpc"
+	//"github.com/studyzy/go-palletone/core/accounts/usbwallet"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/rpc"
 	"github.com/robertkrimen/otto"
 )
 

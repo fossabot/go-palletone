@@ -24,9 +24,9 @@ import (
 	"sync"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/internal/ethapi"
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/internal/ethapi"
+	"github.com/studyzy/go-palletone/common/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

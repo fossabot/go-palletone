@@ -26,8 +26,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/hexutil"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/hexutil"
 )
 
 var testAddrHex = "5031336b6a334b656a50585168673348577a35314d7448443177387248614657503138" //P13kj3KejPXQhg3HWz51MtHD1w8rHaFWP18

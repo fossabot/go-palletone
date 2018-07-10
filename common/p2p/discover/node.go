@@ -31,9 +31,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/crypto"
-	"github.com/palletone/go-palletone/common/crypto/secp256k1"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/crypto"
+	"github.com/studyzy/go-palletone/common/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

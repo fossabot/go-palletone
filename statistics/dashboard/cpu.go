@@ -21,7 +21,7 @@ package dashboard
 import (
 	"syscall"
 
-	"github.com/palletone/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/common/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

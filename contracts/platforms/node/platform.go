@@ -32,10 +32,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/palletone/go-palletone/core/vmContractPub/flogging"
-	"github.com/palletone/go-palletone/contracts/platforms/util"
-	cutil "github.com/palletone/go-palletone/vm/common"
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	"github.com/studyzy/go-palletone/core/vmContractPub/flogging"
+	"github.com/studyzy/go-palletone/contracts/platforms/util"
+	cutil "github.com/studyzy/go-palletone/vm/common"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 var logger = flogging.MustGetLogger("node-platform")

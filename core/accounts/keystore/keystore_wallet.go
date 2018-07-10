@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/palletone/go-palletone"
-	"github.com/palletone/go-palletone/core/accounts"
-	"github.com/palletone/go-palletone/core/types"
+	ethereum "github.com/studyzy/go-palletone"
+	"github.com/studyzy/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

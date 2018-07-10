@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/palletone/go-palletone/statistics/metrics"
+	"github.com/studyzy/go-palletone/statistics/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

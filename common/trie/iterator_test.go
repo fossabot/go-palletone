@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/ptndb"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/ptndb"
 )
 
 func TestIterator(t *testing.T) {

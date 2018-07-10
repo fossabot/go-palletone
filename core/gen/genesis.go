@@ -19,11 +19,11 @@ package gen
 import (
 	"errors"
 
-	"github.com/palletone/go-palletone/common/log"
-	"github.com/palletone/go-palletone/configure"
-	"github.com/palletone/go-palletone/core"
-	"github.com/palletone/go-palletone/dag/modules"
-	"github.com/palletone/go-palletone/dag/storage"
+	"github.com/studyzy/go-palletone/common/log"
+	"github.com/studyzy/go-palletone/configure"
+	"github.com/studyzy/go-palletone/core"
+	"github.com/studyzy/go-palletone/dag/modules"
+	"github.com/studyzy/go-palletone/dag/storage"
 )
 
 const (

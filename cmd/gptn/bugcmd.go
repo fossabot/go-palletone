@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/palletone/go-palletone/cmd/internal/browser"
-	"github.com/palletone/go-palletone/configure"
+	"github.com/studyzy/go-palletone/cmd/internal/browser"
+	"github.com/studyzy/go-palletone/configure"
 
-	"github.com/palletone/go-palletone/cmd/utils"
+	"github.com/studyzy/go-palletone/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/palletone/go-palletone/issues/new"
+const issueUrl = "https://github.com/studyzy/go-palletone/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

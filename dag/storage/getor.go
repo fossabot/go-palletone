@@ -23,10 +23,10 @@ import (
 	"log"
 	"unsafe"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/dag/modules"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/dag/modules"
 
-	config "github.com/palletone/go-palletone/dag/dagconfig"
+	config "github.com/studyzy/go-palletone/dag/dagconfig"
 )
 
 // get bytes

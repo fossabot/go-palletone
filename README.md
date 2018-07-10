@@ -7,7 +7,7 @@ Official golang implementation of the palletone protocol.
 ## Building the source
 
 For prerequisites and detailed build instructions please read the
-[Installation Instructions](https://github.com/palletone/go-palletone/wiki/Building-palletone)
+[Installation Instructions](https://github.com/studyzy/go-palletone/wiki/Building-palletone)
 on the wiki.
 
 Building gptn requires both a Go (version 1.7 or later) and a C compiler.
@@ -26,12 +26,12 @@ The go-palletone project comes with several wrappers/executables found in the `c
 
 | Command    | Description |
 |:----------:|-------------|
-| **`gptn`** | Our main palletone CLI client. It is the entry point into the palletone network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the palletone network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gptn --help` and the [CLI Wiki page](https://github.com/palletone/go-palletone/wiki/Command-Line-Options) for command line options. |
+| **`gptn`** | Our main palletone CLI client. It is the entry point into the palletone network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the palletone network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gptn --help` and the [CLI Wiki page](https://github.com/studyzy/go-palletone/wiki/Command-Line-Options) for command line options. |
 
 ## Running gptn
 
 Going through all the possible command line flags is out of scope here (please consult our
-[CLI Wiki page](https://github.com/palletone/go-palletone/wiki/Command-Line-Options)), but we've
+[CLI Wiki page](https://github.com/studyzy/go-palletone/wiki/Command-Line-Options)), but we've
 enumerated a few common parameter combos to get you up to speed quickly on how you can run your
 own Gptn instance.
 
@@ -51,9 +51,9 @@ This command will:
  * Start gptn in fast sync mode (default, can be changed with the `--syncmode` flag), causing it to
    download more data in exchange for avoiding processing the entire history of the palletone network,
    which is very CPU intensive.
- * Start up Gptn's built-in interactive [JavaScript console](https://github.com/palletone/go-palletone/wiki/JavaScript-Console),
-   (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/palletone/wiki/wiki/JavaScript-API)
-   as well as Gptn's own [management APIs](https://github.com/palletone/go-palletone/wiki/Management-APIs).
+ * Start up Gptn's built-in interactive [JavaScript console](https://github.com/studyzy/go-palletone/wiki/JavaScript-Console),
+   (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/studyzy/wiki/wiki/JavaScript-API)
+   as well as Gptn's own [management APIs](https://github.com/studyzy/go-palletone/wiki/Management-APIs).
    This too is optional and if you leave it out you can always attach to an already running Gptn instance
    with `gptn attach`.
 
@@ -151,7 +151,7 @@ Please make sure your contributions adhere to our coding guidelines:
  * Commit messages should be prefixed with the package(s) they modify.
    * E.g. "ptn, rpc: make trace configs optional"
 
-Please see the [Developers' Guide](https://github.com/palletone/go-palletone/wiki/Developers'-Guide)
+Please see the [Developers' Guide](https://github.com/studyzy/go-palletone/wiki/Developers'-Guide)
 for more details on configuring your environment, managing project dependencies and testing procedures.
 
 ## License

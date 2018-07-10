@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/event"
-	"github.com/palletone/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/event"
+	"github.com/studyzy/go-palletone/core/accounts"
 )
 
 var testSigData = make([]byte, 32)

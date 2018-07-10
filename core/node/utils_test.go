@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/palletone/go-palletone/common/p2p"
-	"github.com/palletone/go-palletone/common/rpc"
+	"github.com/studyzy/go-palletone/common/p2p"
+	"github.com/studyzy/go-palletone/common/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

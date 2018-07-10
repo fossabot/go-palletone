@@ -23,7 +23,7 @@ package peer
 import (
 	"fmt"
 
-	pb "github.com/palletone/go-palletone/core/vmContractPub/protos/peer"
+	pb "github.com/studyzy/go-palletone/core/vmContractPub/protos/peer"
 )
 
 //MockPeerCCSupport provides CC support for peer interfaces.

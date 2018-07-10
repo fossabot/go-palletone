@@ -28,9 +28,9 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/palletone/go-palletone/common"
-	"github.com/palletone/go-palletone/common/files"
-	"github.com/palletone/go-palletone/core/accounts"
+	"github.com/studyzy/go-palletone/common"
+	"github.com/studyzy/go-palletone/common/files"
+	"github.com/studyzy/go-palletone/core/accounts"
 )
 
 var (
