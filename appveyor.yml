@@ -13,11 +13,11 @@ environment:
       MSYS2_BITS: 64
       MSYSTEM: MINGW64
       PATH: C:\msys64\mingw64\bin\;C:\Program Files (x86)\NSIS\;%PATH%
-    - GETH_ARCH: 386
-      MSYS2_ARCH: i686
-      MSYS2_BITS: 32
-      MSYSTEM: MINGW32
-      PATH: C:\msys64\mingw32\bin\;C:\Program Files (x86)\NSIS\;%PATH%
+    # - GETH_ARCH: 386
+    #   MSYS2_ARCH: i686
+    #   MSYS2_BITS: 32
+    #   MSYSTEM: MINGW32
+    #   PATH: C:\msys64\mingw32\bin\;C:\Program Files (x86)\NSIS\;%PATH%
 
 install:
   - git submodule update --init
@@ -34,7 +34,7 @@ after_build:
   - go run build\ci.go archive -type zip -signer WINDOWS_SIGNING_KEY 
  # - go run build\ci.go nsis -signer WINDOWS_SIGNING_KEY
 
-test_script:
-  - set CGO_ENABLED=1
-  # - go run build\ci.go test -coverage
-  - go test ./...
+# test_script:
+#   - set CGO_ENABLED=1
+# - go run build\ci.go test -coverage
+
