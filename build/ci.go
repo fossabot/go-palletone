@@ -381,11 +381,11 @@ func doArchive(cmdline []string) {
 	if err := build.WriteArchive(alltools, allToolsArchiveFiles); err != nil {
 		log.Fatal(err)
 	}
-	for _, archive := range []string{gptn, alltools} {
-		if err := archiveUpload(archive, *upload, *signer); err != nil {
-			log.Fatal(err)
-		}
-	}
+	// for _, archive := range []string{gptn, alltools} {
+	// 	if err := archiveUpload(archive, *upload, *signer); err != nil {
+	// 		log.Fatal(err)
+	// 	}
+	// }
 }
 
 func archiveBasename(arch string, env build.Environment) string {
