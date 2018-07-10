@@ -352,11 +352,11 @@ func doLint(cmdline []string) {
 
 func doArchive(cmdline []string) {
 	var (
-		arch  = flag.String("arch", runtime.GOARCH, "Architecture cross packaging")
-		atype = flag.String("type", "zip", "Type of archive to write (zip|tar)")
-		// signer = flag.String("signer", "", `Environment variable holding the signing key (e.g. LINUX_SIGNING_KEY)`)
-		// upload = flag.String("upload", "", `Destination to upload the archives (usually "gethstore/builds")`)
-		ext string
+		arch   = flag.String("arch", runtime.GOARCH, "Architecture cross packaging")
+		atype  = flag.String("type", "zip", "Type of archive to write (zip|tar)")
+		signer = flag.String("signer", "", `Environment variable holding the signing key (e.g. LINUX_SIGNING_KEY)`)
+		upload = flag.String("upload", "", `Destination to upload the archives (usually "gethstore/builds")`)
+		ext    string
 	)
 	flag.CommandLine.Parse(cmdline)
 	switch *atype {
@@ -386,6 +386,8 @@ func doArchive(cmdline []string) {
 	// 		log.Fatal(err)
 	// 	}
 	// }
+	fmt.Println(signer)
+	fmt.Println(upload)
 
 }
 
