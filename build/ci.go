@@ -71,14 +71,14 @@ var (
 	// Files that end up in the gptn-alltools*.zip archive.
 	allToolsArchiveFiles = []string{
 		"COPYING",
-		executablePath("abigen"),
-		executablePath("bootnode"),
-		executablePath("evm"),
+		// executablePath("abigen"),
+		// executablePath("bootnode"),
+		// executablePath("evm"),
 		executablePath("gptn"),
-		executablePath("puppeth"),
-		executablePath("rlpdump"),
-		executablePath("swarm"),
-		executablePath("wnode"),
+		// executablePath("puppeth"),
+		// executablePath("rlpdump"),
+		// executablePath("swarm"),
+		// executablePath("wnode"),
 	}
 
 	// A debian package is created for all executables listed here.
