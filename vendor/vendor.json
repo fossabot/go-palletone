@@ -345,6 +345,12 @@
 			"revisionTime": "2018-05-09T16:24:41Z"
 		},
 		{
+			"checksumSHA1": "Y27Agdpf4FN4HGANJ8cp8+Q6VO4=",
+			"path": "github.com/golang/glog",
+			"revision": "23def4e6c14b4da8ac2ed8007337bc5eb5007998",
+			"revisionTime": "2016-01-25T20:49:56Z"
+		},
+		{
 			"checksumSHA1": "Ir3s/8Q+8qJ0leCGpeTd/lsNs5M=",
 			"path": "github.com/golang/mock/gomock",
 			"revision": "22bbf0ddf08105dfa364d0a2fa619dfa71014af5",
