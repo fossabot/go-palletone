@@ -3,6 +3,7 @@
 Official golang implementation of the palletone protocol.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/03e2a645bd5b40acabad69ff94833b02)](https://app.codacy.com/app/studyzy/go-palletone?utm_source=github.com&utm_medium=referral&utm_content=studyzy/go-palletone&utm_campaign=badger)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fstudyzy%2Fgo-palletone.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fstudyzy%2Fgo-palletone?ref=badge_shield)
  [![CircleCI](https://circleci.com/gh/palletone/go-palletone/tree/master.svg?style=shield)](https://circleci.com/gh/palletone/go-palletone/tree/master)
  [![Build Status](https://travis-ci.org/studyzy/go-palletone.svg?branch=master)](https://travis-ci.org/studyzy/go-palletone)
 
@@ -161,3 +162,6 @@ for more details on configuring your environment, managing project dependencies 
 The go-palletone binaries (i.e. all code inside of the `cmd` directory) is licensed under the
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html), also included
 in our repository in the `COPYING` file.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fstudyzy%2Fgo-palletone.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fstudyzy%2Fgo-palletone?ref=badge_large)
